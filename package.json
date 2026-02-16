@@ -1,1 +1,33 @@
-
+{
+  "name": "tunzy-md2",
+  "version": "2.0.0",
+  "description": "TUNZY-MD2 - Multi Functional WhatsApp Bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "pm2": "pm2 start index.js --name tunzy-md2",
+    "pm2-stop": "pm2 stop tunzy-md2",
+    "pm2-restart": "pm2 restart tunzy-md2",
+    "pm2-logs": "pm2 logs tunzy-md2"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.9",
+    "@hapi/boom": "^10.0.1",
+    "qrcode-terminal": "^0.12.0",
+    "pino": "^8.21.0",
+    "fs-extra": "^11.2.0",
+    "dotenv": "^16.4.5",
+    "axios": "^1.7.2",
+    "node-fetch": "^2.7.0",
+    "moment-timezone": "^0.5.45",
+    "chalk": "^4.1.2",
+    "cfonts": "^3.2.0",
+    "fluent-ffmpeg": "^2.1.3",
+    "ytdl-core": "^4.11.5",
+    "yt-search": "^2.11.0",
+    "google-it": "^1.6.4",
+    "mongoose": "^8.5.1",
+    "simple-git": "^3.25.0",
+    "path": "^0.12.7"
+  }
+}
