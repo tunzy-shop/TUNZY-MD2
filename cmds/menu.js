@@ -449,7 +449,7 @@ ${readMore}
 ┕    ─┉─ • ─┉─   ┙ 
 
 *📢 Join Official Channel*
-${config.CHANNEL_LINK || 'https://whatsapp.com/channel/yourchannelid'}
+${config.CHANNEL_LINK || 'https://whatsapp.com/channel/0029Vb7EWFcIHphQPz7S4147'}
 `;
 
         // Send menu with image
